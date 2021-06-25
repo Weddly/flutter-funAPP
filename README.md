@@ -2,7 +2,7 @@
 
 Projeto em Flutter para a disciplina de Desenvolvimento Web.
 
-O app além de identificar o usuário com input no acesso, oferece a possiblidade de ver piadas dentro de um banco de dados interno.
+O app além de identificar o usuário com input no acesso, oferece a possiblidade de ver de forma aleatória piadas dentro de um banco de dados interno.
 
 Curiosidades e haikais podem ser implementados no futuro.
 
