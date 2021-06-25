@@ -1,16 +1,20 @@
-# widget
+# fun APP
 
-A new Flutter project.
+Projeto em Flutter para a disciplina de Desenvolvimento Web.
 
-## Getting Started
+O app além de identificar o usuário com input no acesso, oferece a possiblidade de ver piadas dentro de um banco de dados interno.
 
-This project is a starting point for a Flutter application.
+Curiosidades e haikais podem ser implementados no futuro.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Requisitos da Atividade
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Crie um projeto Flutter que tenha ao menos um exemplo de cada Widget:
+
+
+- Container 
+- ListView e ListTile
+- TextField 
+- onTap OU onPressed 
+- navigator 
+
