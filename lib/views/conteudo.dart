@@ -29,17 +29,34 @@ class _ConteudoState extends State<ConteudoPage> {
           mainAxisSize: MainAxisSize.max,
           children: [
             SizedBox(
-              height: 64,
+              height: 128,
             ),
-            Text(
-              (widget.piadas..shuffle()).first.title,
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Text(
-              (widget.piadas).first.answer,
+            Container(
+                height: 86,
+                margin: EdgeInsets.fromLTRB(6, 16, 6, 16),
+                padding: EdgeInsets.fromLTRB(0, 6, 0, 6),
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.orange),
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Text(
+                  (widget.piadas..shuffle()).first.title,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                  textAlign: TextAlign.center,
+                )),
+            Container(
+              height: 86,
+              margin: EdgeInsets.fromLTRB(6, 16, 6, 16),
+              padding: EdgeInsets.fromLTRB(0, 6, 0, 6),
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Colors.orange,
+              ),
+              child: Text((widget.piadas).first.answer,
+                  style: TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.bold)),
             ),
           ],
         ),
