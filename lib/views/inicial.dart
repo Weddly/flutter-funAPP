@@ -72,7 +72,7 @@ class _InicialPageState extends State<InicialPage> {
                           builder: (context) =>
                               MyHomePage(title: 'Fun APP', user: this.nome)));
                 },
-                child: const Text('Entrar'))
+                child: const Text('Entrar')),
           ],
         ),
       ),
