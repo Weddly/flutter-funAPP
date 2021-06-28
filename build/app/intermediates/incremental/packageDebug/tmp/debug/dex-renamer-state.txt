@@ -1,4 +1,4 @@
-#Fri Jun 25 21:46:28 BRT 2021
-base.0=C\:\\Users\\weddl\\Projetos\\Widget\\funAPP\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Mon Jun 28 17:28:30 BRT 2021
+base.0=C\:\\Users\\weddl\\Projetos (SSD)\\Widget\\funAPP\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

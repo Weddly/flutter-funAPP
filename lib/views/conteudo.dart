@@ -29,7 +29,7 @@ class _ConteudoState extends State<ConteudoPage> {
           mainAxisSize: MainAxisSize.max,
           children: [
             SizedBox(
-              height: 128,
+              height: 256,
             ),
             Container(
                 height: 86,
@@ -46,18 +46,18 @@ class _ConteudoState extends State<ConteudoPage> {
                   style: TextStyle(fontWeight: FontWeight.bold),
                   textAlign: TextAlign.center,
                 )),
-            Container(
-              height: 86,
-              margin: EdgeInsets.fromLTRB(6, 16, 6, 16),
-              padding: EdgeInsets.fromLTRB(0, 6, 0, 6),
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                color: Colors.orange,
-              ),
-              child: Text((widget.piadas).first.answer,
-                  style: TextStyle(
-                      color: Colors.white, fontWeight: FontWeight.bold)),
-            ),
+            ElevatedButton(
+                onPressed: () {
+                  final snackBar = SnackBar(
+                    content: Text((widget.piadas).first.answer,
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                        textAlign: TextAlign.center),
+                  );
+                  ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                },
+                child: const Text("Exibir resposta")),
+            // RespostaButton(
+            //     resposta: (widget.piadas).first.answer, title: 'On tap'),
           ],
         ),
       ),
