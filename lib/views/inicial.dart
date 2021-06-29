@@ -34,7 +34,7 @@ class _InicialPageState extends State<InicialPage> {
           mainAxisSize: MainAxisSize.max,
           children: [
             SizedBox(
-              height: 128,
+              height: 230,
             ),
             Container(
               height: 86,
